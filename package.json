@@ -1,0 +1,21 @@
+{
+  "name": "ultimate-card-archiver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:comp": "npx tsc index.ts && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "fs": "^0.0.1-security",
+    "typescript": "^5.1.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5"
+  }
+}
